@@ -1,6 +1,6 @@
 {
   "name": "bantam-theme",
-  "version": "0.0.12",
+  "version": "0.0.2",
   "description": "Default theme for Bantam CSS framework.",
   "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
   "style": "css/bantam-theme.css",
