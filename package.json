@@ -1,0 +1,46 @@
+{
+  "name": "bantam-theme",
+  "version": "0.0.12",
+  "description": "Default theme for Bantam CSS framework.",
+  "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
+  "style": "css/bantam-theme.css",
+  "main": "css/bantam-theme.css",
+  "files": [
+    "css",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colmtuite/bantam-theme.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "oocss",
+    "performance",
+    "framework",
+    "front-end"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "cssnano": "^3.5.2",
+    "postcss": "^5.0.21",
+    "precss": "^1.4.0",
+    "yargs": "^4.7.1",
+    "postcss-custom-properties": "^5.0.1",
+    "bantamcss": "^0.0.9"
+  },
+  "contributors": [
+    {
+      "name": "Colm Tuite",
+      "email": "colmtuite@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "npm run build:css && npm run build:minify",
+    "build:css": "node ./scripts/postcss src/bantam-theme.css css/bantam-theme.css",
+    "build:minify": "node ./scripts/postcss -m src/bantam-theme.css css/bantam-theme.min.css",
+    "build:watch": "watch 'npm start' ./src/"
+  }
+}

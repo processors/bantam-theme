@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 62.5%;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Bantam Default Theme</title>
+        <link rel="stylesheet" href="node_modules/bantamcss/css/bantam.min.css">
+        <link rel="stylesheet" href="node_modules/bantam-utilities/css/bantam-utilities.min.css">
+        <link rel="stylesheet" href="node_modules/bantam-grid/css/bantam-grid.min.css">
+        <link rel="stylesheet" href="css/bantam-material-design.min.css">
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            small,
+            strong {
+                font-size: inherit;
+                font-weight: normal;
+            }
+
+            input,
+            button,
+            select,
+            textarea {
+                font-family: inherit;
+            }
+
+            html,
+            body {
+                height: 100%;
+            }
+
+            body {
+                line-height: 1;
+            }
+
+        </style>
+    </head>
+    <body class="ff-system color-blueGrey900">
+        <!-- Fullscreen hero -->
+        <!-- <section class="position-relative bs-cover height-100 ta-center" style="background-image: url('https://images.unsplash.com/photo-1438055798380-460deeace338?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1437&h=958&q=80'); background-position: center;">
+            <div class="display-table height-100 width-100">
+                <div class="display-tableCell va-middle">
+                    <h1 class="fs-xxxxxl fw-5 color-white" style="letter-spacing: -4px;">Victor Erixon</h1>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Fullscreen hero with overlay -->
+        <section class="position-relative bs-cover height-100 ta-center" style="background-image: url('https://images.unsplash.com/photo-1438055798380-460deeace338?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1437&h=958&q=80'); background-position: center;">
+            <div class="position-relative display-table height-100 width-100" style="z-index: 100;">
+                <div class="display-tableCell va-middle">
+                    <h1 class="fs-xxxxxl fw-5 color-white" style="letter-spacing: -4px;">Victor Erixon</h1>
+                </div>
+            </div>
+            <div class="position-absolute pinTL pinBR bc-deepPurple500 opacity-30"></div>
+        </section>
+
+        <!-- <section class="pt-xxl pb-xxl clearfix">
+            <div class="width-80 horizontallyCenter clearfix">
+                    <h2 class="fs-xxxl lh-xxxxl fw-3 color-blueGrey900">Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I post my work to Dribbble, photography to Instagram and life updates to Twitter.</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl clearfix">
+            <div class="width-80 horizontallyCenter clearfix">
+                <div class="mb-xl">
+                    <h2 class="fs-l color-blueGrey500">About me</h2>
+                </div>
+                <h3 class="fs-xxxl lh-xxxxl fw-3 color-blueGrey900">Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I post my work to Dribbble, photography to Instagram and life updates to Twitter.</h3>
+                <div class="mt-xl">
+                    <div class="display-tableCell pr-xl">
+                        <a class="os-none td-none cursor-pointer fw-4 fs-l color-blueGrey300 color-blueGrey900--hover" href="#">Twitter</a>
+                    </div>
+                    <div class="display-tableCell pr-xl">
+                        <a class="os-none td-none cursor-pointer fw-4 fs-l color-blueGrey300 color-blueGrey900--hover" href="#">Dribbble</a>
+                    </div>
+                    <div class="display-tableCell pr-xl">
+                        <a class="os-none td-none cursor-pointer fw-4 fs-l color-blueGrey300 color-blueGrey900--hover" href="#">Instagram</a>
+                    </div>
+                    <div class="display-tableCell pr-xl">
+                        <a class="os-none td-none cursor-pointer fw-4 fs-l color-blueGrey300 color-blueGrey900--hover" href="#">Quora</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="pt-xxl pb-xxl clearfix">
+            <div class="width-80 horizontallyCenter clearfix">
+                <div class="grid">
+                    <div class="col-4">
+                        <div class="mb-xl">
+                            <h2 class="fs-l lh-xxl color-blueGrey500">About me</h2>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="mb-xl">
+                            <h3 class="fs-xxxxl lh-xxxxl fw-3 color-blueGrey900 ls-s">I'm Colm - a designer from Dublin. I design experiences for the web.</h3>
+                        </div>
+                        <div class="grid">
+                            <div class="col-6">
+                                <p class="fs-l lh-xl">Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I design experiences for the web. Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I design experiences for the web.</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="fs-l lh-xl">Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I design experiences for the web. Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I design experiences for the web.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="pt-xxl pb-xxl clearfix">
+            <div class="width-80 horizontallyCenter clearfix">
+                <div class="grid">
+                    <div class="col-4">
+                        <div class="mb-xl">
+                            <h2 class="fs-l lh-xxxl color-blueGrey500">About me</h2>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="mb-xl">
+                            <h3 class="fs-xxxxxl lh-xxxxxl fw-3 color-blueGrey900" style="letter-spacing: -4px;">Designer<br><span class="color-red500">/</span> Developer</h3>
+                        </div>
+                        <div class="grid clearfix">
+                            <div class="col-6">
+                                <p class="fs-l lh-xl">Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I design experiences for the web. Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I design experiences for the web.</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="fs-l lh-xl">Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I design experiences for the web. Hey, I'm Colm Tuite - a designer from Dublin, Ireland. I design experiences for the web.</p>
+                            </div>
+                        </div>
+                        <div class="mt-xl">
+                            <div class="display-tableCell pr-xl">
+                                <a class="os-none td-none cursor-pointer fs-l color-blueGrey300 color-blueGrey900--hover" href="#">Twitter</a>
+                            </div>
+                            <div class="display-tableCell pr-xl">
+                                <a class="os-none td-none cursor-pointer fs-l color-blueGrey300 color-blueGrey900--hover" href="#">Dribbble</a>
+                            </div>
+                            <div class="display-tableCell pr-xl">
+                                <a class="os-none td-none cursor-pointer fs-l color-blueGrey300 color-blueGrey900--hover" href="#">Instagram</a>
+                            </div>
+                            <div class="display-tableCell pr-xl">
+                                <a class="os-none td-none cursor-pointer fs-l color-blueGrey300 color-blueGrey900--hover" href="#">Quora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="pt-xxl pb-xxl clearfix">
+            <div class="width-80 horizontallyCenter clearfix">
+                <div class="grid">
+                    <div class="col-4">
+                        <div class="aspectRatio aspectRatio--100">
+                            <div class="aspectRatio-content">
+                                <a class="display-block height-100 cursor-pointer td-none" href="#">
+                                    <div class="bs-cover height-100" style="background-image: url('https://images.unsplash.com/photo-1438055798380-460deeace338?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1437&h=958&q=80'); background-position: center;">
+                                        <div class="hideChild height-100">
+                                            <div class="hideChild-child height-100">
+                                                <div class="height-100 bc-pink500 opacity-30 padding-l">
+                                                    <div class="display-table height-100 width-100 ta-center">
+                                                        <div class="display-tableCell va-middle">
+                                                            <div class="mb-m">
+                                                                <span class="display-block fs-xxl lh-xxl color-white">Project name</span>
+                                                            </div>
+                                                            <span class="fs-l lh-m color-white">This is a brieft project description to provide some additional information.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="aspectRatio aspectRatio--100">
+                            <div class="aspectRatio-content">
+                                <a class="display-block height-100 cursor-pointer td-none" href="#">
+                                    <div class="bs-cover height-100" style="background-image: url('https://images.unsplash.com/photo-1438055798380-460deeace338?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1437&h=958&q=80'); background-position: center;">
+                                        <div class="hideChild height-100">
+                                            <div class="hideChild-child height-100">
+                                                <div class="height-100 bc-pink500 opacity-30 padding-l">
+                                                    <div class="display-table height-100 width-100 ta-center">
+                                                        <div class="display-tableCell va-middle">
+                                                            <div class="mb-m">
+                                                                <span class="display-block fs-xxl lh-xxl color-white">Project name</span>
+                                                            </div>
+                                                            <span class="fs-l lh-m color-white">This is a brieft project description to provide some additional information.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="aspectRatio aspectRatio--100">
+                            <div class="aspectRatio-content">
+                                <a class="display-block height-100 cursor-pointer td-none" href="#">
+                                    <div class="bs-cover height-100" style="background-image: url('https://images.unsplash.com/photo-1438055798380-460deeace338?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1437&h=958&q=80'); background-position: center;">
+                                        <div class="hideChild height-100">
+                                            <div class="hideChild-child height-100">
+                                                <div class="height-100 bc-pink500 opacity-30 padding-l">
+                                                    <div class="display-table height-100 width-100 ta-center">
+                                                        <div class="display-tableCell va-middle">
+                                                            <div class="mb-m">
+                                                                <span class="display-block fs-xxl lh-xxl color-white">Project name</span>
+                                                            </div>
+                                                            <span class="fs-l lh-m color-white">This is a brieft project description to provide some additional information.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="aspectRatio aspectRatio--100">
+                            <div class="aspectRatio-content">
+                                <a class="display-block height-100 cursor-pointer td-none" href="#">
+                                    <div class="bs-cover height-100" style="background-image: url('https://images.unsplash.com/photo-1438055798380-460deeace338?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1437&h=958&q=80'); background-position: center;">
+                                        <div class="hideChild height-100">
+                                            <div class="hideChild-child height-100">
+                                                <div class="height-100 bc-pink500 opacity-30 padding-l">
+                                                    <div class="display-table height-100 width-100 ta-center">
+                                                        <div class="display-tableCell va-middle">
+                                                            <div class="mb-m">
+                                                                <span class="display-block fs-xxl lh-xxl color-white">Project name</span>
+                                                            </div>
+                                                            <span class="fs-l lh-m color-white">This is a brieft project description to provide some additional information.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="aspectRatio aspectRatio--100">
+                            <div class="aspectRatio-content">
+                                <a class="display-block height-100 cursor-pointer td-none" href="#">
+                                    <div class="bs-cover height-100" style="background-image: url('https://images.unsplash.com/photo-1438055798380-460deeace338?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1437&h=958&q=80'); background-position: center;">
+                                        <div class="hideChild height-100">
+                                            <div class="hideChild-child height-100">
+                                                <div class="height-100 bc-pink500 opacity-30 padding-l">
+                                                    <div class="display-table height-100 width-100 ta-center">
+                                                        <div class="display-tableCell va-middle">
+                                                            <div class="mb-m">
+                                                                <span class="display-block fs-xxl lh-xxl color-white">Project name</span>
+                                                            </div>
+                                                            <span class="fs-l lh-m color-white">This is a brieft project description to provide some additional information.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="aspectRatio aspectRatio--100">
+                            <div class="aspectRatio-content">
+                                <a class="display-block height-100 cursor-pointer td-none" href="#">
+                                    <div class="bs-cover height-100" style="background-image: url('https://images.unsplash.com/photo-1438055798380-460deeace338?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1437&h=958&q=80'); background-position: center;">
+                                        <div class="hideChild height-100">
+                                            <div class="hideChild-child height-100">
+                                                <div class="height-100 bc-pink500 opacity-30 padding-l">
+                                                    <div class="display-table height-100 width-100 ta-center">
+                                                        <div class="display-tableCell va-middle">
+                                                            <div class="mb-m">
+                                                                <span class="display-block fs-xxl lh-xxl color-white">Project name</span>
+                                                            </div>
+                                                            <span class="fs-l lh-m color-white">This is a brieft project description to provide some additional information.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl clearfix bc-blueGrey900">
+            <div class="width-60 horizontallyCenter clearfix">
+                <div class="grid clearfix">
+                    <div class="col-12 bpm-col-3">
+                        <div class="display-inlineBlock bpm-display-block overflow-hidden mr-s bpm-mb-xxs">
+                            <time class="display-block fs-l lh-m color-white">June 29, 2016</time>
+                        </div>
+                        <span class="display-inlineBlock bpm-display-block va-super fs-m lh-s color-blueGrey500">San Francisco</span>
+                    </div>
+                    <div class="col-12 bpm-col-6">
+                        <div class="mb-xs">
+                            <span class="fs-xl lh-l color-white">World premiere in San Francisco</span>
+                        </div>
+                        <p class="fs-l lh-l color-blueGrey500 ls-s">Join an exclusive group of your design peers on the red carpet in San Francisco for the world premiere of Design Disruptors</p>
+                    </div>
+                    <div class="col-12 bpm-col-3 bpm-ta-right">
+                        <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-m bc-blue500 color-white" style="line-height: 40px;">Book tickets</a>
+                    </div>
+                </div>
+
+                <div class="grid clearfix clear-both">
+                    <div class="col-12 bpm-col-3">
+                        <div class="display-inlineBlock bpm-display-block overflow-hidden mr-s bpm-mb-xxs">
+                            <time class="display-block fs-l lh-m color-white">June 9, 2016</time>
+                        </div>
+                        <span class="display-inlineBlock bpm-display-block va-super fs-m lh-s color-blueGrey500">San Francisco</span>
+                    </div>
+                    <div class="col-12 bpm-col-6">
+                        <div class="mb-xs">
+                            <span class="fs-xl lh-l color-white">World premiere in San Francisco</span>
+                        </div>
+                        <p class="fs-l lh-l color-blueGrey500 ls-s">Join an exclusive group of your design peers on the red carpet in San Francisco for the world premiere of Design Disruptors</p>
+                    </div>
+                    <div class="col-12 bpm-col-3 bpm-ta-right">
+                        <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-m bc-blue500 color-white" style="line-height: 40px;">Book tickets</a>
+                    </div>
+                </div>
+
+                <div class="grid clearfix clear-both">
+                    <div class="col-12 bpm-col-3">
+                        <div class="display-inlineBlock bpm-display-block overflow-hidden mr-s bpm-mb-xxs">
+                            <time class="display-block fs-l lh-m color-white">June 10, 2016</time>
+                        </div>
+                        <span class="display-inlineBlock bpm-display-block va-super fs-m lh-s color-blueGrey500">San Francisco</span>
+                    </div>
+                    <div class="col-12 bpm-col-6">
+                        <div class="mb-xs">
+                            <span class="fs-xl lh-l color-white">World premiere in San Francisco</span>
+                        </div>
+                        <p class="fs-l lh-l color-blueGrey500 ls-s">Join an exclusive group of your design peers on the red carpet in San Francisco for the world premiere of Design Disruptors</p>
+                    </div>
+                    <div class="col-12 bpm-col-3 bpm-ta-right">
+                        <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-m bc-blue500 color-white" style="line-height: 40px;">Book tickets</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tour dates (John Mayer) -->
+        <section class="pt-xxl pb-xxl clearfix bc-white">
+            <div class="width-90 bpl-width-70 horizontallyCenter clearfix">
+                <div class="bpm-display-table width-100 clearfix">
+                    <div class="pt-l bpm-display-tableRow">
+                        <div class="bpm-display-tableCell bpm-width-60 va-middle pb-m bpm-pb-0 bpm-pr-xl">
+                            <div class="mb-xs">
+                                <span class="display-block fs-xl lh-l bpm-lh-xl fw-3">Madison Square Garden</span>
+                            </div>
+                            <span class="display-block fs-m lh-s color-blueGrey500">New York, New York</span>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle pr-m bpm-pr-xl">
+                            <time class="display-block fs-s bpm-fs-l bpm-lh-m ws-nowrap">June 11, 2016</time>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle bpm-ta-center float-right">
+                            <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-s bpm-fs-m bc-blue500 color-white" href="#" style="line-height: 34px;">Buy tickets</a>
+                        </div>
+                    </div>
+                    <div class="pt-l bpm-display-tableRow">
+                        <div class="bpm-display-tableCell bpm-width-60 va-middle pb-m bpm-pb-0 bpm-pr-xl">
+                            <div class="mb-xs">
+                                <span class="display-block fs-xl lh-l bpm-lh-xl fw-3">Madison Square Garden</span>
+                            </div>
+                            <span class="display-block fs-m lh-s color-blueGrey500">New York, New York</span>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle pr-m bpm-pr-xl">
+                            <time class="display-block fs-s bpm-fs-l bpm-lh-m ws-nowrap">June 11, 2016</time>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle bpm-ta-center">
+                            <span class="display-inlineBlock va-middle ws-nowrap us-none cursor-default fw-5 ls-xl br-s padding-xs br-s fs-xxs tt-uppercase bc-red50 color-red900">Sold out</span>
+                        </div>
+                    </div>
+                    <div class="pt-l bpm-display-tableRow">
+                        <div class="bpm-display-tableCell bpm-width-60 va-middle pb-m bpm-pb-0 bpm-pr-xl">
+                            <div class="mb-xxs bpm-mb-xs">
+                                <span class="display-block fs-xl lh-xl fw-3">Madison Square Garden</span>
+                            </div>
+                            <span class="display-block fs-m lh-s color-blueGrey500">New York, New York</span>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle pr-m bpm-pr-xl">
+                            <time class="display-block fs-s bpm-fs-l bpm-lh-m ws-nowrap">June 11, 2016</time>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle bpm-ta-center">
+                            <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-m bc-blue500 color-white" href="#" style="line-height: 40px;">Buy tickets</a>
+                        </div>
+                    </div>
+                    <div class="pt-l bpm-display-tableRow">
+                        <div class="bpm-display-tableCell bpm-width-60 va-middle pb-m bpm-pb-0 bpm-pr-xl">
+                            <div class="mb-xxs bpm-mb-xs">
+                                <span class="display-block fs-xl lh-xl fw-3">Madison Square Garden</span>
+                            </div>
+                            <span class="display-block fs-m lh-s color-blueGrey500">New York, New York</span>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle pr-m bpm-pr-xl">
+                            <time class="display-block fs-s bpm-fs-l bpm-lh-m ws-nowrap">June 11, 2016</time>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle bpm-ta-center">
+                            <span class="display-inlineBlock va-middle ws-nowrap us-none cursor-default fw-5 ls-xl br-s padding-xs br-s fs-xxs tt-uppercase bc-red50 color-red900">Sold out</span>
+                        </div>
+                    </div>
+                    <div class="pt-l bpm-display-tableRow">
+                        <div class="bpm-display-tableCell bpm-width-60 va-middle pb-m bpm-pb-0 bpm-pr-xl">
+                            <div class="mb-xxs bpm-mb-xs">
+                                <span class="display-block fs-xl lh-xl fw-3">Madison Square Garden</span>
+                            </div>
+                            <span class="display-block fs-m lh-s color-blueGrey500">New York, New York</span>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle pr-m bpm-pr-xl">
+                            <time class="display-block fs-s bpm-fs-l bpm-lh-m ws-nowrap">June 11, 2016</time>
+                        </div>
+                        <div class="display-tableCell bpm-width-20 va-middle bpm-ta-center">
+                            <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-m bc-blue500 color-white" href="#" style="line-height: 40px;">Buy tickets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- More stories written by (Medium) -->
+        <section class="pt-xxl pb-xxl bc-blueGrey50 clearfix">
+            <div class="width-90 bpm-width-60 bpl-width-50 horizontallyCenter clearfix">
+                <div class="mb-l">
+                    <span class="fs-s color-blueGrey500">More stories from Signal v. Noise</span>
+                </div>
+                <div class="bc-white br-m" style="border-width: 1px; border-style: solid; border-color: #d4dae4">
+                    <div class="padding-m bpm-padding-l">
+                        <div class="display-tableCell va-middle pr-m bpm-pr-l">
+                            <img class="br-s" src="https://cdn-images-1.medium.com/fit/c/65/65/1*79D5RohHWZDK-tDQcYM9YA.jpeg" alt="" style="width: 60px; height: 60px;">
+                        </div>
+                        <div class="display-tableCell va-middle">
+                            <div class="mb-xs bpm-mb-s">
+                                <a class="os-none td-none cursor-pointer bpm-fw-3 fs-m bpm-fs-l lh-s bpm-lh-m color-blueGrey900 color-blue500--hover" href="#">When we say work can wait, we mean it. Really.</a>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <a class="os-none td-none cursor-pointer fw-4 fs-xs bpm-fs-s color-blue500" href="#">Bianca Bass</a>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">3 min read</span>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">1.3K</span>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">128</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m bpm-padding-l" style="border-top-width: 1px; border-top-style: solid; border-color: #d4dae4">
+                        <div class="display-tableCell va-middle pr-m bpm-pr-l">
+                            <img class="br-s" src="https://cdn-images-1.medium.com/fit/c/65/65/1*79D5RohHWZDK-tDQcYM9YA.jpeg" alt="" style="width: 60px; height: 60px;">
+                        </div>
+                        <div class="display-tableCell va-middle">
+                            <div class="mb-xs bpm-mb-s">
+                                <a class="os-none td-none cursor-pointer bpm-fw-3 fs-m bpm-fs-l lh-s bpm-lh-m color-blueGrey900 color-blue500--hover" href="#">When we say work can wait, we mean it. Really.</a>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <a class="os-none td-none cursor-pointer fw-4 fs-xs bpm-fs-s color-blue500" href="#">Bianca Bass</a>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">3 min read</span>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">1.3K</span>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">128</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m bpm-padding-l" style="border-top-width: 1px; border-top-style: solid; border-color: #d4dae4">
+                        <div class="display-tableCell va-middle pr-m bpm-pr-l">
+                            <img class="br-s" src="https://cdn-images-1.medium.com/fit/c/65/65/1*79D5RohHWZDK-tDQcYM9YA.jpeg" alt="" style="width: 60px; height: 60px;">
+                        </div>
+                        <div class="display-tableCell va-middle">
+                            <div class="mb-xs bpm-mb-s">
+                                <a class="os-none td-none cursor-pointer bpm-fw-3 fs-m bpm-fs-l lh-s bpm-lh-m color-blueGrey900 color-blue500--hover" href="#">When we say work can wait, we mean it. Really.</a>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <a class="os-none td-none cursor-pointer fw-4 fs-xs bpm-fs-s color-blue500" href="#">Bianca Bass</a>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">3 min read</span>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">1.3K</span>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">128</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m bpm-padding-l" style="border-top-width: 1px; border-top-style: solid; border-color: #d4dae4">
+                        <div class="display-tableCell va-middle pr-m bpm-pr-l">
+                            <img class="br-s" src="https://cdn-images-1.medium.com/fit/c/65/65/1*79D5RohHWZDK-tDQcYM9YA.jpeg" alt="" style="width: 60px; height: 60px;">
+                        </div>
+                        <div class="display-tableCell va-middle">
+                            <div class="mb-xs bpm-mb-s">
+                                <a class="os-none td-none cursor-pointer bpm-fw-3 fs-m bpm-fs-l lh-s bpm-lh-m color-blueGrey900 color-blue500--hover" href="#">When we say work can wait, we mean it. Really.</a>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <a class="os-none td-none cursor-pointer fw-4 fs-xs bpm-fs-s color-blue500" href="#">Bianca Bass</a>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">3 min read</span>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">1.3K</span>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">128</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Follow links (Medium) -->
+        <section class="pt-l pb-l bc-blueGrey50 clearfix">
+            <div class="width-90 bpm-width-60 bpl-width-50 horizontallyCenter clearfix">
+                <div class="grid clearfix">
+                    <div class="col-12 bpm-col-6">
+                        <div class="display-tableCell pr-l">
+                            <img class="br-s" src="https://cdn-images-1.medium.com/fit/c/65/65/1*79D5RohHWZDK-tDQcYM9YA.jpeg" alt="" style="width: 60px; height: 60px;">
+                        </div>
+                        <div class="display-tableCell va-top">
+                            <div class="mb-xs">
+                                <span class="fs-l lh-m">Colm Tuite</span>
+                            </div>
+                            <p class="fs-s lh-m color-blueGrey500">Creator of Ruby on Rails, Founder & CTO at Basecamp (formerly 37signals), NYT Best-selling author of REWORK and REMOTE, and Le Mans class-winning racing driver.</p>
+                            <div class="mt-m">
+                                <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-s bc-blue500 color-white" href="#" style="line-height: 30px;">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 bpm-col-6">
+                        <div class="display-tableCell pr-l">
+                            <img class="br-s" src="https://cdn-images-1.medium.com/fit/c/65/65/1*79D5RohHWZDK-tDQcYM9YA.jpeg" alt="" style="width: 60px; height: 60px;">
+                        </div>
+                        <div class="display-tableCell va-top">
+                            <div class="mb-xs">
+                                <span class="fs-l lh-m">Bruce Wayne</span>
+                            </div>
+                            <p class="fs-s lh-m color-blueGrey500">Creator of Ruby on Rails, Founder & CTO at Basecamp (formerly 37signals), NYT Best-selling author of REWORK and REMOTE, and Le Mans class-winning racing driver.</p>
+                            <div class="mt-m">
+                                <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-s bc-blueGrey100 color-blueGrey500" href="#" style="line-height: 30px;">Following</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comment (Medium) -->
+        <section class="pt-l pb-l bc-blueGrey50 clearfix">
+            <div class="width-90 bpm-width-60 bpl-width-50 horizontallyCenter clearfix">
+                <div class="padding-l bc-white br-m" style="border-width: 1px; border-style: solid; border-color: #d4dae4">
+                    <div class="display-tableCell pr-s">
+                        <img class="br-circle" src="https://cdn-images-1.medium.com/fit/c/65/65/1*79D5RohHWZDK-tDQcYM9YA.jpeg" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="display-tableCell va-middle width-100">
+                        <div class="width-100 cursor-text fs-l fw-3 padding-xs color-blueGrey500">Write a comment...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comment (Medium) -->
+        <section class="pt-l pb-l bc-blueGrey50 clearfix">
+            <div class="width-90 bpm-width-60 bpl-width-50 horizontallyCenter clearfix">
+                <div class="mt-l">
+                    <div class="padding-l bc-white br-m" style="border-width: 1px; border-style: solid; border-color: #d4dae4">
+                        <div class="mb-l">
+                            <span class="fs-s lh-s color-blueGrey500">Recommended by <a class="os-none td-none cursor-pointer color-blueGrey500 color-blueGrey900--hover" href="#">Adam Gallagher</a> and 4 others</span>
+                        </div>
+                        <div class="mb-m">
+                            <div class="display-tableCell pr-m">
+                                <img class="br-circle" src="https://cdn-images-1.medium.com/fit/c/65/65/1*79D5RohHWZDK-tDQcYM9YA.jpeg" alt="" style="width: 40px; height: 40px;">
+                            </div>
+                            <div class="display-tableCell va-middle">
+                                <div class="mb-xs">
+                                    <a class="os-none td-none cursor-pointer fw-4 fs-s bpm-fs-m color-blue500" href="#">Bianca Bass</a>
+                                </div>
+                                <div class="display-tableCell pr-s bpm-pr-m">
+                                    <span class="fs-xs bpm-fs-s color-blueGrey500">2 days ago</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-m">
+                            <p class="fs-m lh-l">This is my main philosophy when choosing a book to read, we as humans have a limited book list to read, so we should pick carefully. Btw, your book Rework is one of those, full of knowledge and actionable things.</p>
+                            <p class="fs-m lh-l mt-s">This is my main philosophy when choosing a book to read, we as humans have a limited book list to read, so we should pick carefully. Btw, your book Rework is one of those, full of knowledge and actionable things.</p>
+                        </div>
+                        <div class="clearfix">
+                            <div class="float-left">
+                                <span class="fs-l color-blueGrey500">Icon</span>
+                            </div>
+                            <div class="float-right">
+                                <span class="fs-l color-blueGrey500">Icon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comment form (Medium) -->
+        <section class="pt-l pb-l bc-blueGrey50 clearfix">
+            <div class="width-90 bpm-width-60 bpl-width-50 horizontallyCenter clearfix">
+                <div class="padding-l bc-white br-m" style="border-width: 1px; border-style: solid; border-color: #d4dae4">
+                    <div class="mb-m">
+                        <div class="display-tableCell pr-m">
+                            <img class="br-circle" src="https://cdn-images-1.medium.com/fit/c/65/65/1*79D5RohHWZDK-tDQcYM9YA.jpeg" alt="" style="width: 40px; height: 40px;">
+                        </div>
+                        <div class="display-tableCell va-middle">
+                            <div class="mb-xs">
+                                <a class="os-none td-none cursor-pointer fw-4 fs-s bpm-fs-m color-blue500" href="#">Bianca Bass</a>
+                            </div>
+                            <div class="display-tableCell pr-s bpm-pr-m">
+                                <span class="fs-xs bpm-fs-s color-blueGrey500">Just now</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-m">
+                        <textarea class="width-100 fs-m lh-l os-none resize-none" placeholder="Write a comment..." style="border-width: 0; min-height: 220px;"></textarea>
+                    </div>
+                    <div class="clearfix">
+                        <div class="display-tableCell pr-m">
+                            <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-m bc-blue500 color-white" href="#" style="line-height: 40px;">Publish</a>
+                        </div>
+                        <div class="display-tableCell pr-m">
+                            <a class="display-inlineBlock va-middle bw-0 appearance-none ws-nowrap os-none us-none td-none ta-center cursor-pointer fw-5 br-s pl-s pr-s fs-m bc-blue500 color-white" href="#" style="line-height: 40px;">Go full screen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <section class="padding-xxl bc-blueGrey50">
+            <div class="width-90 horizontallyCenter" style="max-width: 360px;">
+                <div class="mb-m">
+                    <div class="bc-white padding-m br-s bs-active">
+                        <div class="mb-l">
+                            <p class="mb-xs fs-xl lh-l">Unlimited music now</p>
+                            <p class="fs-s lh-s color-blueGrey500">Listen to your favourite artists and albums wherever and whenever, online and offline.</p>
+                        </div>
+                        <button class="bc-transparent bw-0 padding-s color-blueGrey900 fs-xs ls-l br-s tt-uppercase fw-5 cursor-pointer os-none">Listen now</button>
+                    </div>
+                </div>
+                <div class="mb-m">
+                    <div class="br-s bs-active">
+                        <div class="position-relative br-s bs-cover" style="height: 200px; background-image: url('https://images.unsplash.com/photo-1460500063983-994d4c27756c?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1439&h=959&q=80');">
+                            <div class="position-absolute padding-m" style="bottom: 0; left: 0;">
+                                <p class="fs-xl lh-l color-white">Top 10 Australian Beaches</p>
+                            </div>
+                        </div>
+                        <div class="bc-white padding-m overflow-hidden">
+                            <div class="mb-l">
+                                <span class="display-block mb-xs fs-s lh-s color-blueGrey500">Number 10</span>
+                                <p class="mb-xs fs-xl lh-l">Unlimited music now</p>
+                                <p class="fs-s lh-s color-blueGrey500">Listen to your favourite artists and albums wherever and whenever, online and offline.</p>
+                            </div>
+                            <div class="inline">
+                                <div>
+                                    <button class="bc-transparent bw-0 padding-s color-blueGrey900 fs-xs ls-l br-s tt-uppercase fw-5 cursor-pointer os-none">Share</button>
+                                </div>
+                                <div>
+                                    <button class="bc-transparent bw-0 padding-s color-blueGrey900 fs-xs ls-l br-s tt-uppercase fw-5 cursor-pointer os-none">Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-m">
+                    <div class="br-s bs-active">
+                        <div class="position-relative br-s bs-cover" style="height: 200px; background-image: url('https://images.unsplash.com/photo-1460500063983-994d4c27756c?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1439&h=959&q=80');">
+                            <div class="position-absolute padding-m" style="bottom: 0; left: 0;">
+                                <span class="display-block mb-xs fs-s lh-s color-white opacity-80">Number 10</span>
+                                <p class="fs-xl lh-l color-white">Top 10 Australian Beaches</p>
+                            </div>
+                        </div>
+                        <div class="bc-white padding-m overflow-hidden">
+                            <p class="mb-xs fs-xl lh-l">Unlimited music now</p>
+                            <p class="fs-s lh-s color-blueGrey500">Listen to your favourite artists and albums wherever and whenever, online and offline.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="padding-xl bc-white ta-center clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 900px;">
+                <div class="inline">
+                    <div class="va-middle">
+                        <p class="fs-m">This is a call to action.</p>
+                    </div>
+                    <div class="va-middle ml-m">
+                        <a class="display-inlineBlock bc-blue500 bw-0 padding-s color-white fs-xs ls-l br-s tt-uppercase fw-6 cursor-pointer os-none">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl bc-blueGrey50 ta-center clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 900px;">
+                <div class="bpl-width-50 bpl-float-left pt-xl pl-xl">
+                    <h4 class="mb-l fs-xxl lh-xxl fw-3">This is a heading.</h4>
+                    <p class="mb-l fs-l fw-3 lh-l">This is a call to action. Listen to your favourite artists and albums wherever and whenever, online and offline. This is just some more text.</p>
+                    <a class="mt-s display-inlineBlock fs-m ls-l td-none color-blue500" href="#">Link to something</a>
+                </div>
+                <div class="bpl-width-50 bpl-float-left pt-xl pl-xl">
+                    <h4 class="mb-l fs-xxl lh-xxl fw-3">This is a heading.</h4>
+                    <p class="mb-l fs-l fw-3 lh-l">This is a call to action. Listen to your favourite artists and albums wherever and whenever, online and offline. This is just some more text.</p>
+                    <a class="mt-s display-inlineBlock fs-m ls-l td-none color-blue500" href="#">Link to something</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl bc-white ta-center clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 700px;">
+                <hgroup class="mb-xl">
+                    <h2 class="fs-xxxl lh-xxxl fw-3">This is a heading.</h2>
+                    <h3 class="mt-xl fs-xl lh-xxl fw-3">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible. Pioneer new patterns and groundbreaking designs. Find the best solution, not just the expected one.</h3>
+                </hgroup>
+                <a class="mt-s display-inlineBlock fs-l ls-l td-none color-blue500" href="#">Link to something</a>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl bc-blueGrey50 clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 700px;">
+                <h2 class="fs-xxxl lh-xxxl fw-3">This is a heading.</h2>
+                <div class="clearfix" style="display: flex; flex-wrap: wrap;">
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible. Pioneer new patterns and groundbreaking designs. Find the best solution, not just the expected one.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible. Pioneer new patterns and groundbreaking designs. Find the best solution, not just the expected one.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl bc-blueGrey50 clearfix">
+            <div class="width-90 bps-width-80 bpm-width-70 bpl-width-60 bpxl-width-50 horizontallyCenter clearfix">
+                <div class="grid">
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h2 class="fs-l lh-l fw-3">This is a heading.</h2>
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h2 class="fs-l lh-l fw-3">This is a heading.</h2>
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h2 class="fs-l lh-l fw-3">This is a heading.</h2>
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h2 class="fs-l lh-l fw-3">This is a heading.</h2>
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl bc-white clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 900px;">
+                <div class="float-left">
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                    </div>
+                </div>
+                <div class="float-right">
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </body>
+</html>
